@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       {/* <PureMain/> */}
       <Routes>
-        <Route path="/" element={ <Navbar/>}>
+        <Route path="/movie-search-api" element={ <Navbar/>}>
         </Route>
         <Route path="/TopRatedMovie" element={ <TopRatedMovie/>}>
         </Route>

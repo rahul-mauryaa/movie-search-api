@@ -20,7 +20,7 @@ export const NavBarTwo = () => {
   return (
     <>
     <nav className="navbar bg-color-nav navbar-expand-lg navbar-light">
-        <Link className="navbar-brand h1" to="/">
+        <Link className="navbar-brand h1" to="/movie-search-api">
             <img src={BRAND} alt="brand" className='w-50 h-50' />
         </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
